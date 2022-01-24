@@ -27,8 +27,6 @@ sass:
 
   network_mode: none
 
-  user: ${UID}:${GID}
-
   volumes:
     - ./node_modules:/node_modules:ro
     - ./fobv-wordpress/theme/assets/scss:/scss
